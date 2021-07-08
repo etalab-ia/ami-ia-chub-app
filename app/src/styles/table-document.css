@@ -1,0 +1,25 @@
+.table-document-container {
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+}
+
+.table-document {
+	width: 100%;
+}
+
+.table-document tr {
+	border-bottom: 1px solid #efefef;
+}
+
+.table-document tr.row-head {
+	background-color: #f9f9f9;
+}
+
+.table-document th {
+	padding: 8px;
+}
+
+.table-document td {
+	padding: 0 8px;
+}

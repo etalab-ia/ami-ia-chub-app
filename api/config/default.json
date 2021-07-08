@@ -1,0 +1,24 @@
+{
+  "port": 8080,
+  "logLevel": "info",
+  "elasticUrl": "http://elasticsearch:9200",
+  "fhirUrl": "192.168.222.218",
+	"neo4j": {
+		"uri": "bolt://192.168.222.218:7687",
+		"username": "neo4j",
+		"password": "st@rclay2020"
+	},
+	"auth": {
+		"cdsEnabled": true,
+		"cdsIdentity": "cds.api.dxcare-webapp.chu-bordeaux.fr",
+		"apiIdentity": "api.dxcare-webapp.chu-bordeaux.fr",
+		"jwtSecret": "cfe59f8e257619b067ae15e5fb0d6116aa96b5df7607ab1ed3dcbe8eda34b0fd",
+		"defaultSessionLifetime": 28800,
+		"maxSessionLifetime": 604800,
+		"userdbs": [
+			{"realm": "local", "kind": "staticConfig", "config": {"users": {
+				"luser": "49e7af00689a5e2e.5b760d2f1b3a3d6720c0090de498d8dcea095b0f6822f16ea508ec37cf894465"
+			}}}
+		]
+	}
+}

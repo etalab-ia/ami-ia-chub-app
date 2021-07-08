@@ -1,0 +1,121 @@
+#Bandeau medicationAdministrationsbyref aka CompteRendu by ref
+# Delta = une journée, regroupé par category coding display pour un sous bandeau pour le patient 1
+# GET http://localhost:8080/fhir/bandeau/medicationAdministrationsbyref/1?start_date=13-05-1966&end_date=20-05-1966
+
+# Delta = une semaine pour le patient 1, regroupé par category coding display pour un sous bandeau
+# GET http://localhost:8080/fhir/bandeau/medicationAdministrationsbyref/1?start_date=13-05-1966&end_date=20-06-1966
+
+# Delta = par pair de semaine pour le patient 1, regroupé par category coding display pour un sous bandeau
+# GET http://localhost:8080/fhir/bandeau/medicationAdministrationsbyref/1?start_date=13-05-1966&end_date=20-09-1966
+
+# Delta = par mois pour le patient 1, regroupé par category coding display pour un sous bandeau
+# GET http://localhost:8080/fhir/bandeau/medicationAdministrationsbyref/1?start_date=13-01-1966&end_date=20-12-1967
+
+# Delta = par année pour le patient 1, regroupé par category coding display pour un sous bandeau
+# GET http://localhost:8080/fhir/bandeau/medicationAdministrationsbyref/1?start_date=13-01-1966&end_date=20-12-2000
+
+
+#Bandeau medicationAdministrationsbyday aka CompteRendu by ref by day (comme pmsi)
+# Delta = une journée, regroupé par category coding display pour un sous bandeau pour le patient 1
+# GET http://localhost:8080/fhir/bandeau/medicationAdministrationsbyday/1?start_date=13-05-1966&end_date=20-05-1966
+
+# Delta = une semaine pour le patient 1, regroupé par category coding display pour un sous bandeau
+# GET http://localhost:8080/fhir/bandeau/medicationAdministrationsbyday/1?start_date=13-05-1966&end_date=20-06-1966
+
+# Delta = par pair de semaine pour le patient 1, regroupé par category coding display pour un sous bandeau
+# GET http://localhost:8080/fhir/bandeau/medicationAdministrationsbyday/1?start_date=13-05-1966&end_date=20-09-1966
+
+# Delta = par mois pour le patient 1, regroupé par category coding display pour un sous bandeau
+# GET http://localhost:8080/fhir/bandeau/medicationAdministrationsbyday/1?start_date=13-01-1966&end_date=20-12-1967
+
+# Delta = par année pour le patient 1, regroupé par category coding display pour un sous bandeau
+# GET http://localhost:8080/fhir/bandeau/medicationAdministrationsbyday/1?start_date=13-01-1966&end_date=20-12-2000
+
+
+#Bandeau clinicalReport aka CompteRendu
+# Delta = une journée, regroupé par category coding display pour un sous bandeau pour le patient 1
+# GET http://localhost:8080/fhir/bandeau/clinicalReports/1?start_date=13-05-1966&end_date=20-05-1966
+
+# Delta = une semaine pour le patient 1, regroupé par category coding display pour un sous bandeau
+#  GET http://localhost:8080/fhir/bandeau/clinicalReports/1?start_date=13-05-1966&end_date=20-06-1966
+
+# Delta = par pair de semaine pour le patient 1, regroupé par category coding display pour un sous bandeau
+# GET http://localhost:8080/fhir/bandeau/clinicalReports/1?start_date=13-05-1966&end_date=20-09-1966
+
+# Delta = par mois pour le patient 1, regroupé par category coding display pour un sous bandeau
+# GET http://localhost:8080/fhir/bandeau/clinicalReports/1?start_date=13-01-1966&end_date=20-12-1967
+
+# Delta = par année pour le patient 1, regroupé par category coding display pour un sous bandeau
+# GET http://localhost:8080/fhir/bandeau/clinicalReports/1?start_date=13-01-1966&end_date=20-12-2000
+
+
+# Requêtes HTTP pour le Bandeau questionnaireResponses
+# Delta = une journée, regroupé par titre de formulaire pour un sous bandeau pour le patient 1
+# GET http://localhost:8080/fhir/bandeau/questionnaireResponses/1?start_date=13-05-1966&end_date=20-05-1966
+
+# Delta = une semaine pour le patient 1, regroupé par titre de formulaire pour un sous bandeau
+# GET http://localhost:8080/fhir/bandeau/questionnaireResponses/1?start_date=13-05-1966&end_date=20-06-1966
+
+# Delta = par pair de semaine pour le patient 1, regroupé par titre de formulaire pour un sous bandeau
+# GET http://localhost:8080/fhir/bandeau/questionnaireResponses/1?start_date=13-05-1966&end_date=20-09-1966
+
+# Delta = par mois pour le patient 1, regroupé par titre de formulaire pour un sous bandeau
+# GET http://localhost:8080/fhir/bandeau/questionnaireResponses/1?start_date=13-01-1966&end_date=20-12-1967
+
+# Delta = par année pour le patient 1, regroupé par titre de formulaire pour un sous bandeau
+# GET http://localhost:8080/fhir/bandeau/questionnaireResponses/1?start_date=13-01-1966&end_date=20-12-2000
+
+# Bandeau labresults:
+# Delta = une journée, regroupé par code pour un sous bandeau pour le patient 1
+# GET http://localhost:8080/fhir/bandeau/labresults/1?start_date=13-05-1966&end_date=20-05-1966
+
+# Delta = une semaine pour le patient 1, regroupé par code pour un sous bandeau
+# GET http://localhost:8080/fhir/bandeau/labresults/1?start_date=13-05-1966&end_date=20-06-1966
+
+# Delta = par pair de semaine pour le patient 1, regroupé par code pour un sous bandeau
+# GET http://localhost:8080/fhir/bandeau/labresults/1?start_date=13-05-1966&end_date=20-09-1966
+
+# Delta = par mois pour le patient 1, regroupé par code pour un sous bandeau
+# GET http://localhost:8080/fhir/bandeau/labresults/1?start_date=13-01-1966&end_date=20-12-1967
+
+# Delta = par année pour le patient 1, regroupé par code pour un sous bandeau
+# GET http://localhost:8080/fhir/bandeau/labresults/1?start_date=13-01-1966&end_date=20-12-2000
+
+
+# Bandeau PMSIS:
+# Delta = une journée, regroupé par code pour un sous bandeau pour le patient 1
+# GET http://localhost:8080/fhir/bandeau/pmsis/1?start_date=13-05-1966&end_date=20-05-1966
+
+# Delta = une semaine pour le patient 1, regroupé par code pour un sous bandeau
+# GET http://localhost:8080/fhir/bandeau/pmsis/1?start_date=13-05-1966&end_date=20-06-1966
+
+# Delta = par pair de semaine pour le patient 1, regroupé par code pour un sous bandeau
+# GET http://localhost:8080/fhir/bandeau/pmsis/1?start_date=13-05-1966&end_date=20-09-1966
+#
+# Delta = par mois pour le patient 1, regroupé par code pour un sous bandeau
+# GET http://localhost:8080/fhir/bandeau/pmsis/1?start_date=13-01-1966&end_date=20-12-1967
+
+# Delta = par année pour le patient 1, regroupé par code pour un sous bandeau
+# GET http://localhost:8080/fhir/bandeau/pmsis/1?start_date=13-01-1966&end_date=20-12-2000
+
+
+# Timeline PMSIS:
+# timeline PMSIS:
+# Delta = une journée, regroupé par code pour un sous timeline pour le patient 1
+# GET http://localhost:8080/fhir/timeline/pmsis/1?start_date=13-05-1966&end_date=20-05-1966
+
+# Delta = une semaine pour le patient 1, regroupé par code pour un sous timeline
+# GET http://localhost:8080/fhir/timeline/pmsis/1?start_date=13-05-1966&end_date=20-06-1966
+
+# Delta = par mois pour le patient 1, regroupé par code pour un sous timeline
+# GET http://localhost:8080/fhir/timeline/pmsis/1?start_date=13-01-1966&end_date=20-12-1967
+
+# Delta = par année pour le patient 1, regroupé par code pour un sous timeline
+ GET http://localhost:8080/fhir/timeline/pmsis/1?start_date=13-01-1966&end_date=20-12-2000
+
+
+# API ROUTES FHIR
+# GET http://localhost:8080/fhir/all/getSelect/1
+
+#  GET http://localhost:8080/fhir/all/getAll/1
+# GET http://localhost:8080/fhir/all/test/1

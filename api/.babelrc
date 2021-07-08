@@ -1,0 +1,38 @@
+{
+    "presets": [
+        "@babel/preset-env"
+    ],
+    "plugins": [
+        [
+          "module-resolver",
+          {
+            "root": [
+              "./src"
+            ],
+            "alias": {
+							"@auth": "./src/auth",
+              "@controllers": "./src/controllers",
+              "@middleware": "./src/middleware",
+              "@tools": "./src/tools",
+              "@services": "./src/services",
+              "@timeline" : "./src/services/timeline",
+              "@bandeau" : "./src/services/bandeau"
+            }
+          }
+        ],
+        [
+          "@babel/plugin-transform-runtime",
+          {
+            "absoluteRuntime": false,
+            "corejs": false,
+            "helpers": true,
+            "regenerator": true,
+            "useESModules": false
+          }
+        ],
+        [
+          "@babel/plugin-syntax-class-properties"
+        ]
+      ]
+
+}

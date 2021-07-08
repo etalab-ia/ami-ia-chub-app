@@ -1,0 +1,189 @@
+body, html {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+		"Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	padding: 0;
+	height: 100%;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
+}
+
+.yaxislabel {
+	font-size: 14pt;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.fff {
+	background: #fff;
+}
+
+.eee {
+	background: #eee;
+}
+
+.ddd {
+	background: #ddd;
+}
+
+.page-container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 0;
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+}
+
+.frow {
+	display: flex;
+	flex-direction: row;
+}
+
+.fcol {
+	display: flex;
+	flex-direction: column;
+}
+
+.fjstart {
+	justify-content: flex-start;
+}
+
+.fjcenter {
+	justify-content: center;
+}
+
+.fjend {
+	justify-content: flex-end;
+}
+
+.fjspace {
+	justify-content: space-between;
+}
+
+.fastart {
+	align-items: flex-start;
+}
+
+.facenter {
+	align-items: center;
+}
+
+.faend {
+	align-items: flex-end;
+}
+
+.fexpand {
+	flex-grow: 1;
+}
+
+.fwrap {
+	flex-wrap: wrap;
+}
+
+.fgap {
+	gap: 8px;
+}
+
+.fgaph {
+	gap: 4px;
+}
+
+.fgapd {
+	gap: 16px;
+}
+
+.fgapq {
+	gap: 32px;
+}
+
+.headerbar {
+	margin: 0 8px;
+	padding: 8px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.patient-name {
+	font-size: 1.4em;
+	font-weight: bold;
+}
+
+.patient-dates {
+	font-size: 0.8em;
+}
+
+.nav-controls {
+	max-width: 800px;
+}
+
+.timelines-block {
+	padding: 8px;
+}
+
+.tl-labels-col {
+	max-width: 250px;
+}
+
+.tl-label {
+	height: 16px;
+	font-size: 12px;
+	font-weight: bold;
+	white-space: nowrap;
+}
+
+.tl-label-large {
+	height: 20px;
+}
+
+.tl-label-axis-below {
+	margin-bottom: 26px;
+}
+
+.tl-label-subtree {
+	margin-left: 8px;
+}
+
+.tl-subtree-toggle-button {
+	margin-left: 2px;
+	padding: 0;
+	height: 16px;
+	width: 12px;
+	font-size: 10px;
+	border: none;
+	outline: none;
+	background: none;
+	cursor: pointer;
+}
+
+.tl-timelines-col {
+	margin-left: 8px;
+}
+
+.bottom-block {
+	padding: 8px;
+	overflow: hidden;
+	gap: 8px;
+}
+
+.search-block {
+	display: flex;
+	flex: 1 1 40%;
+	max-width: 600px;
+}
+
+.documents-block {
+	display: flex;
+	flex: 1 1 60%;
+	overflow: hidden;
+	background-color: #ffffff;
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+	border-radius: 2px;
+}
